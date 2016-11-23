@@ -1,0 +1,42 @@
+{
+  "name": "react-revision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --content-base public",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.2",
+    "react": "^15.4.0",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0"
+  },
+
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.9.0",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-validator": "^2.2.3",
+    "css-loader": "^0.25.0",
+    "expect": "^1.20.2",
+    "expect-jsx": "^2.6.0",
+    "react-addons-test-utils": "^15.2.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  }
+}
